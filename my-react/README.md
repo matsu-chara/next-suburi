@@ -1,6 +1,6 @@
 ## setting
 
-```
+``` how it was built
 # install node
 nvm install --lts --latest-npm
 echo "lts/*" > .nvmrc
@@ -20,6 +20,7 @@ yarn set version stable
 
 # add dependencies
 npm init @eslint/config@latest
+npm init stylelint
 yarn add -D prettier eslint-config-prettier eslint-plugin-react-hooks
 
 # upgrade libraries
