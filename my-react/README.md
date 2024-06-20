@@ -19,7 +19,8 @@ cd my-react
 yarn set version stable
 
 # add dependencies
-yarn add -D  eslint prettier  eslint-config-prettier @eslint/js @types/eslint
+npm init @eslint/config@latest
+yarn add -D prettier eslint-config-prettier eslint-plugin-react-hooks
 
 # upgrade libraries
 yarn upgrade-interactive
