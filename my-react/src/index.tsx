@@ -18,6 +18,6 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals(console.log);
 
-setInterval(() => {
-  root.render(<p>現在時刻: {new Date().toLocaleString()}</p>);
-}, 1000);
+// setInterval(() => {
+//   root.render(<p>現在時刻: {new Date().toLocaleString()}</p>);
+// }, 1000);
