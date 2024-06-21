@@ -4,7 +4,8 @@ import "./index.css";
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 // import MyHello from "./MyHello";
-import EventBasic from "./EventBasic";
+// import EventBasic from "./EventBasic";
+import StateBasic from "./StateBasic";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
@@ -13,7 +14,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <MyHello myName="aaa" myNum={1} /> */}
-    <EventBasic type="time" />
+    {/* <EventBasic type="time" /> */}
+    <StateBasic init={0} />
   </React.StrictMode>,
 );
 
