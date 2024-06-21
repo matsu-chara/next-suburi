@@ -1,15 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+// import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+// import MyHello from "./MyHello";
+import EventBasic from "./EventBasic";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
 );
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <MyHello myName="aaa" myNum={1} /> */}
+    <EventBasic type="time" />
   </React.StrictMode>,
 );
 
