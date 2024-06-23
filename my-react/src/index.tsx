@@ -10,6 +10,8 @@ import StyledPanel from "./StyledPanel";
 import TitledPanel from "./TitledPanel";
 import ListTemplate from "./ListTemplate";
 import StateParent from "./StateParent";
+import EventMouse from "./EventMouse";
+import EventPoint from "./EventPoint";
 
 const books = [
   { isbn: "a", title: "aaa" },
@@ -46,7 +48,14 @@ root.render(
         </>
       )}
     </ListTemplate> */}
-    <StateParent />
+    {/* <StateParent /> */}
+    {/* <EventMouse
+      alt="ロゴ"
+      beforeSrc="https://www.web-deli.com/image/linkbanner_l.gif"
+      afterSrc="https://www.web-deli.com/image/home_chara.gif"
+      errorSrc="..."
+    /> */}
+    <EventPoint />
   </React.StrictMode>,
 );
 
