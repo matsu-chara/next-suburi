@@ -6,6 +6,14 @@ import reportWebVitals from "./reportWebVitals";
 // import MyHello from "./MyHello";
 // import EventBasic from "./EventBasic";
 import StateBasic from "./StateBasic";
+import StyledPanel from "./StyledPanel";
+import TitledPanel from "./TitledPanel";
+import ListTemplate from "./ListTemplate";
+
+const books = [
+  { isbn: "a", title: "aaa" },
+  { isbn: "b", title: "bbb" },
+];
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
@@ -15,7 +23,28 @@ root.render(
     {/* <App /> */}
     {/* <MyHello myName="aaa" myNum={1} /> */}
     {/* <EventBasic type="time" /> */}
-    <StateBasic init={0} />
+    {/* <StateBasic init={0} /> */}
+    {/* <StyledPanel>
+      <p>メンバー募集中</p>
+      <p>ようこそ</p>
+    </StyledPanel> */}
+    {/* <TitledPanel
+      title={<p>メンバー募集中</p>}
+      body={<p>ようこそ</p>}
+    ></TitledPanel> */}
+    <ListTemplate src={books}>
+      {(elem) => (
+        <>
+          <dt>
+            <a
+              href={`https://wings.msn.to/books/${elem.isbn}/${elem.isbn}.jpg`}
+            >
+              {elem.title}
+            </a>
+          </dt>
+        </>
+      )}
+    </ListTemplate>
   </React.StrictMode>,
 );
 
