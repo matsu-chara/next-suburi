@@ -9,6 +9,7 @@ import StateBasic from "./StateBasic";
 import StyledPanel from "./StyledPanel";
 import TitledPanel from "./TitledPanel";
 import ListTemplate from "./ListTemplate";
+import StateParent from "./StateParent";
 
 const books = [
   { isbn: "a", title: "aaa" },
@@ -32,7 +33,7 @@ root.render(
       title={<p>メンバー募集中</p>}
       body={<p>ようこそ</p>}
     ></TitledPanel> */}
-    <ListTemplate src={books}>
+    {/* <ListTemplate src={books}>
       {(elem) => (
         <>
           <dt>
@@ -44,7 +45,8 @@ root.render(
           </dt>
         </>
       )}
-    </ListTemplate>
+    </ListTemplate> */}
+    <StateParent />
   </React.StrictMode>,
 );
 
