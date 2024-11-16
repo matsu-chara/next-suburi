@@ -12,6 +12,7 @@ import ListTemplate from "./ListTemplate";
 import StateParent from "./StateParent";
 import EventMouse from "./EventMouse";
 import EventPoint from "./EventPoint";
+import StateForm from "./StateForm";
 
 const books = [
   { isbn: "a", title: "aaa" },
@@ -55,7 +56,8 @@ root.render(
       afterSrc="https://www.web-deli.com/image/home_chara.gif"
       errorSrc="..."
     /> */}
-    <EventPoint />
+    {/* <EventPoint /> */}
+    <StateForm />
   </React.StrictMode>,
 );
 
