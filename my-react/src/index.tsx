@@ -5,19 +5,19 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 // import MyHello from "./MyHello";
 // import EventBasic from "./EventBasic";
-import StateBasic from "./StateBasic";
-import StyledPanel from "./StyledPanel";
-import TitledPanel from "./TitledPanel";
-import ListTemplate from "./ListTemplate";
-import StateParent from "./StateParent";
-import EventMouse from "./EventMouse";
-import EventPoint from "./EventPoint";
+// import StateBasic from "./StateBasic";
+// import StyledPanel from "./StyledPanel";
+// import TitledPanel from "./TitledPanel";
+// import ListTemplate from "./ListTemplate";
+// import StateParent from "./StateParent";
+// import EventMouse from "./EventMouse";
+// import EventPoint from "./EventPoint";
 import StateForm from "./StateForm";
 
-const books = [
-  { isbn: "a", title: "aaa" },
-  { isbn: "b", title: "bbb" },
-];
+// const books = [
+//   { isbn: "a", title: "aaa" },
+//   { isbn: "b", title: "bbb" },
+// ];
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
