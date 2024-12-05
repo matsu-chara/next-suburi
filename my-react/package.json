@@ -49,6 +49,7 @@
     "prettier": "^3.3.2",
     "stylelint": "^16.6.1",
     "stylelint-config-standard": "^36.0.0",
-    "typescript-eslint": "^7.13.1"
+    "typescript-eslint": "^7.13.1",
+    "use-immer": "^0.10.0"
   }
 }

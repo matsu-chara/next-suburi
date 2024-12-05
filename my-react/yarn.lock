@@ -9623,6 +9623,7 @@ __metadata:
     stylelint-config-standard: "npm:^36.0.0"
     typescript: "npm:^5.4.5"
     typescript-eslint: "npm:^7.13.1"
+    use-immer: "npm:^0.10.0"
     web-vitals: "npm:^4.1.1"
   languageName: unknown
   linkType: soft
@@ -13466,6 +13467,16 @@ __metadata:
     querystringify: "npm:^2.1.1"
     requires-port: "npm:^1.0.0"
   checksum: 10c0/bd5aa9389f896974beb851c112f63b466505a04b4807cea2e5a3b7092f6fbb75316f0491ea84e44f66fed55f1b440df5195d7e3a8203f64fcefa19d182f5be87
+  languageName: node
+  linkType: hard
+
+"use-immer@npm:^0.10.0":
+  version: 0.10.0
+  resolution: "use-immer@npm:0.10.0"
+  peerDependencies:
+    immer: ">=8.0.0"
+    react: ^16.8.0 || ^17.0.1 || ^18.0.0
+  checksum: 10c0/67dcae179c97819c5dba3c598f28d3118ce88ea1fe7bdd5e07fcce945e468125786a20bdfaa90c429374a1cc8f6edd4b3900b3e5726ccd35ea12696a7505436b
   languageName: node
   linkType: hard
 
